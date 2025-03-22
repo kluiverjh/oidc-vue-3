@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Silent Renew Token</title>
+  </head>
+  <body>
+    <script src="/oidc-client-ts.js"></script>
+    <script>
+      console.log('Silent renew token page invoked');
+      new oidc.UserManager().signinSilentCallback();
+    </script>
+  </body>
+</html>
