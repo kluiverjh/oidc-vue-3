@@ -2,6 +2,8 @@
 
 This project demonstrates how to use OIDC in a Vue.js 3 application.
 
+Note: Running oidc-client-ts in web browser is not the best option, better to use BFF (see this [video](https://youtu.be/S5HV1iPhbT4?si=otrbozk8c5D-6nHo) that explains it)
+
 ## Libraries / frameworks
 
 - [Quasar](https://quasar.dev/) - UI Library (can be any UI framework)
